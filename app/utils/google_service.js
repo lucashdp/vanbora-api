@@ -6,7 +6,7 @@ const GoogleService = {
 
 function searchGoogleAdress(searchText) {
     const google = {
-        URL: 'https://maps.google.com/maps/api/place/findplacefromtext/json?input=',
+        URL: 'https://maps.google.com/maps/api/place/findplacefromtext/json?fields=formatted_address,geometry&input=',
         SECRET_ACCESS_KEY: 'AIzaSyAAqP3ZZ_WswZ2n7EJcON3PZe_6Gx7P5RY'
     }
 
