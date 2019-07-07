@@ -9,5 +9,6 @@ module.exports = function (app, db) {
     driversRoutes(app, db);
     ridesRoutes(app, db);
     vehiclesRoutes(app, db);
+    pointsRoutes(app, db);
     placesRoutes(app);
 };
