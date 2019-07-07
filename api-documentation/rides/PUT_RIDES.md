@@ -17,6 +17,8 @@ Edit and return the ride of reference id.
         - **coordinates** - array of numbers
     - **whither** _(required)_ — object
         - **coordinates** - array of numbers
+    - **points** _(required)_ — array of objects
+        - **coordinates** - array of numbers
     - **vehicle** _(required)_ — string
     - **usersInRide** _(required)_ — array of string
     - **start** _(required)_ — string
@@ -44,6 +46,14 @@ Edit and return the ride of reference id.
     "whither": {
         "coordinates": [-19.9399234, -43.9803957]
     },
+    "points": [
+        {
+            "coordinates": [-18.9399234, -43.9803957]
+        },
+        {
+            "coordinates": [-20.9399234, -43.9803957]
+        }
+    ],
     "start": "2019-03-31T20:00:00.000Z",
     "driver": "5bb0e04a7ca1951a9cb23d50",
     "price": 20,

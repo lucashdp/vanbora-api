@@ -13,6 +13,8 @@ Create and return the new ride.
         - **coordinates** - array of numbers
     - **whither** _(required)_ — object
         - **coordinates** - array of numbers
+    - **points** _(required)_ — array of objects
+        - **coordinates** - array of numbers
     - **vehicle** _(required)_ — string
     - **usersInRide** _(required)_ — array of string
     - **start** _(required)_ — string
